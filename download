@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Datos y archivos generados (no deben ir al repositorio)
+data/*.db
+data/*.json
+generated/sessions/*
+generated/history/*
+!generated/sessions/.gitkeep
+!generated/history/.gitkeep
+generated/test_run/
+*.docx
+*.pdf
+!examples/**/*.docx
+!templates/.gitkeep
+
+# Fotografias y Excel con datos reales de personas
+examples/*.xlsx
+examples/*.jpg
+examples/*.jpeg
+examples/*.png
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Sistema
+.DS_Store
